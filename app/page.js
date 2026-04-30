@@ -33,7 +33,7 @@ export default function Home() {
         this.vx = (Math.random() - 0.5) * 0.4;
         this.vy = -(Math.random() * 0.7 + 0.15);
         this.opacity = Math.random() * 0.13 + 0.03;
-        const c = ['rgba(0,210,255,', 'rgba(0,240,200,', 'rgba(180,230,255,', 'rgba(100,200,240,'];
+        const c = ['rgba(0,232,255,', 'rgba(80,255,160,', 'rgba(170,238,0,', 'rgba(0,200,255,', 'rgba(255,255,255,'];
         this.color = c[Math.floor(Math.random() * c.length)];
       }
       update() {
